@@ -1,7 +1,8 @@
 package main
 
 import (
-	"github.com/jameesjohn/slackNotifier"
+	"github.com/jameesjohn/slack-notifier"
+
 	"log"
 )
 

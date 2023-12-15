@@ -34,7 +34,7 @@ func (n Notifier) Send(message *Message) error {
 	}
 
 	if response.StatusCode != http.StatusOK {
-		return errors.New(fmt.Sprintf("Message send failed"))
+		return errors.New(fmt.Sprintf("Message send failed: %v", response.StatusCode))
 	}
 
 	return nil

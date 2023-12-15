@@ -1,3 +1,3 @@
-module github.com/jameesjohn/slackNotifier
+module github.com/jameesjohn/slack-notifier
 
 go 1.19
